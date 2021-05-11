@@ -9,10 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "csv-parse": "^4.15.4",
     "csv-parser": "^3.0.0",
     "csv-stream": "^0.2.0",
     "dotenv": "^9.0.2",
+    "express": "^4.17.1",
     "fast-csv": "^4.3.6",
     "mongoose": "^5.12.8",
     "mysql": "^2.18.1",
