@@ -2,7 +2,7 @@ import axios from "axios";
 let baseURL;
 
 process.env.NODE_ENV === "production"
-  ? (baseURL = "")
+  ? (baseURL = "https://weathe-records.herokuapp.com")
   : (baseURL = "http://localhost:5000");
 
 
